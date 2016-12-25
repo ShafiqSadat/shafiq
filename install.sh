@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 wget "https://valtman.name/files/telegram-cli-1222"
-sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes
 sudo apt-get install ppa-purge
 sudo apt-get install python-pip
 sudo pip install redis
@@ -10,6 +9,7 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get dist-upgrade
 sudo ppa-purge
+sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes
 chmod 777 creator.py
 chmod 777 run.sh
 chmod 777 telegram-cli-1222
